@@ -71,6 +71,7 @@ compute$ module purge
 compute$ module load gcc/9.3.0
 compute$ module load spectrum-mpi/10.4.0.3-20210112
 compute$ module load python/3.8-anaconda3
+# compute$ module load cmake/3.23.2
 compute$ source ~/CYLON/bin/activate
 compute$ export CC=`which gcc`
 compute$ export CXX=`which g++`
